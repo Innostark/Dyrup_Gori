@@ -1,0 +1,290 @@
+
+.padding-top-20px {
+    padding-top: 20px !important;
+}
+.padding-top-10px {
+    padding-top: 10px !important;
+}
+
+
+#primary-menu > ul > li:hover a {
+    color: #00275D !important;
+}
+
+
+#header.full-header #primary-menu > ul {
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    border-right: 0px !important;
+}
+
+#primary-menu ul li .mega-menu-content {
+    border-top: 2px solid #00275D !important;
+}
+
+.StartNowGori {
+    border-radius: 5px !important; border-top-left-radius: 5px !important; background-color: #00275D !important; border-color: #00275D !important;
+    font-size: 17px !important;padding-left: 15px !important;padding-right: 15px !important;
+         
+}
+
+
+.button {
+    background-color: #00275D !important;
+}
+
+
+/*** SELECTED MENU AND IT's INNER MENU PLUS BORDER*/
+#primary-menu > ul > li.current a {
+    color: #00275D !important; /*for selected*/
+}
+
+
+#primary-menu ul ul {
+    border-top: 2px solid #00275D !important;
+}
+/*** END SELECTED MENU AND IT's INNER MENU PLUS BORDER*/
+
+
+/****** CHANGING FONTSS*/
+
+/***************LATO********************/
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+small {
+    font-family: 'Lato', sans-serif;
+}
+
+#primary-menu ul ul a {
+    font-family: 'Lato', sans-serif;
+}
+
+.wp-caption {
+    font-family: 'Lato', Georgia, "Times New Roman", Times, serif;
+}
+
+.feature-box.fbox-center.fbox-italic p {
+    font-family: 'Lato', sans-serif;
+}
+
+.skills li .progress-percent .counter {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-tree ul ul a {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*************LATO******************/
+
+
+/************* Changing RALEWAY to FIRA SANS******************/
+
+h6 {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+#logo {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#primary-menu ul li a {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+#top-search form input {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.entry-link {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.entry.entry-date-section span {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.button.button-desc {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+ul.tab-nav-lg li a {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.counter {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+label {
+	font-family: 'Fira Sans', sans-serif;
+}
+.nav-tree li a {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.wedding-head .and {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+
+/*************END CHANGING RALEWAY******************/
+
+
+/*************CRETE+ROUND******************/
+.entry-meta li {
+	font-family: 'Crete Round', serif;
+}
+.entry-link span {
+	font-family: 'Crete Round', serif;
+}
+
+.entry blockquote p {
+	font-family: 'Crete Round', serif;
+}
+
+.more-link {
+	font-family: 'Crete Round', serif;
+}
+
+
+.comment-content .comment-author span a {
+	font-family: 'Crete Round', serif;
+}
+
+
+.button.button-desc span {
+	font-family: 'Crete Round', serif;
+}
+
+
+.testi-content p {
+	font-family: 'Crete Round', serif;
+}
+
+.team-title span {
+	font-family: 'Crete Round', serif;
+}
+
+.before-heading {
+	font-family: 'Crete Round', serif;
+}
+
+
+.wedding-head .first-name span,
+.wedding-head .last-name span {
+	font-family: 'Crete Round', serif;
+}
+
+/*************CRETE+ROUND******************/
+
+
+/** END CHANGING FONTS*/
+
+
+
+/**** GRADIENT START*/
+.Gori22 {
+  background-color: -webkit-linear-gradient(left top, #D3D7E6 , #032859) !important; /* For Safari 5.1 to 6.0 */
+  background-color: -o-linear-gradient(bottom right, #D3D7E6 , #032859) !important; /* For Opera 11.1 to 12.0 */
+  background-color: -moz-linear-gradient(bottom right, #D3D7E6 , #032859) !important; /* For Firefox 3.6 to 15 */
+  background-color: linear-gradient(to bottom right, #D3D7E6  , #032859) !important; /* Standard syntax */
+  color: white
+}
+.PreservativeGrad {
+  background: -webkit-linear-gradient(left top, #D3D7E6 , #032859); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #D3D7E6 , #032859); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #D3D7E6 , #032859); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #D3D7E6  , #032859); /* Standard syntax */
+  text-align: center; color: white
+}
+#Catalogue, tbody td {
+    text-align: center;
+}
+#Catalogue .icon-ok {
+    font-size: 11px !important;
+}
+
+.Emptytd {
+    width: 5px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    background: lightgray !important;
+}
+.EmptyHeader {
+      width: 5px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    background: lightgray !important;
+}
+
+.FirstColumn {
+    font-size: 12px;
+    text-align: left !important;
+    border-right-style: solid;
+    border-right-width: 1px;
+border-right-color: lightgray;
+
+}
+.LastTr {
+    border-bottom-color: lightgray;
+    border-bottom-width: 2px !important;
+    border-bottom-style: solid;
+    
+}
+
+.PreservativeSubHeader {
+    background: #204270; color: white;text-align: center;
+    font-size: 13px;
+}
+
+.FinishesGrad {
+  background: -webkit-linear-gradient(left top, #D3D7E6 , #6FC284); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #D3D7E6 , #6FC284); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #D3D7E6 , #6FC284); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #D3D7E6  , #6FC284); /* Standard syntax */
+  text-align: center; color: white
+}
+.FinishesSubHeader {
+    background: #6FC284; color: white;text-align: center;
+    font-size: 13px;
+}
+
+.OilsGrad {
+  background: -webkit-linear-gradient(left top, #D3D7E6 , #dd72a0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #D3D7E6 , #dd72a0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #D3D7E6 , #dd72a0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #D3D7E6  , #dd72a0); /* Standard syntax */
+  text-align: center; color: white
+}
+.OilSubHeader {
+    background: #dd72a0; color: white;text-align: center;
+    font-size: 13px;
+}
+
+
+.VarnishesGrad {
+  background: -webkit-linear-gradient(left top, #D3D7E6 , #f0a159); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #D3D7E6 , #f0a159); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #D3D7E6 , #f0a159); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #D3D7E6  , #f0a159); /* Standard syntax */
+  text-align: center; color: white
+}
+.VarnishesSubHeader {
+    background: #f0a159; color: white;text-align: center;
+    font-size: 13px;
+}
+
+/******GRADIENT END*/
