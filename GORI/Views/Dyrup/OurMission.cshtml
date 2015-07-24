@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dyrup - The History of Dyrup";
+}
+
+
+<!-- Content
+            ============================================= -->
+
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Dyrup</h1>
+        <span></span>
+    </div>
+
+</section>
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Post Content
+            ============================================= -->
+            <div class="postcontent nobottommargin col_last  col-md-10 clearfix">
+                <div class="row">
+                    @Html.Partial("~/Views/Shared/_PrintButton.cshtml")
+                    <h2>Our mission</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <p>
+                            <h4>"Easy to choose – Easy to use"</h4>
+                            It is our mantra that Dyrup’s products and concepts must be easy to use and easy to choose, and that end users, whether professional tradesmen or private consumers, must always be proud of the result.
+                        </p>
+                        <p>
+                            <h4>"Our Mission"</h4>
+                            In close partnership with customers, we will continuously develop our category by focusing on helping end users to achieve a successful result every time, as easily as possible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- .postcontent end -->
+            <!-- Sidebar
+            ============================================= -->
+            @Html.Partial("~/Views/Shared/_DyrupSidebar.cshtml")
+            <!-- .sidebar end -->
+
+        </div>
+
+    </div>
+
+</section><!-- #content end -->

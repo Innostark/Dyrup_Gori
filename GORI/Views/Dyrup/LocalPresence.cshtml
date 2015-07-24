@@ -1,0 +1,66 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dyrup - The History of Dyrup";
+}
+
+
+<!-- Content
+            ============================================= -->
+
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Dyrup</h1>
+        <span></span>
+    </div>
+
+</section>
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Post Content
+            ============================================= -->
+            <div class="postcontent nobottommargin col_last  col-md-10 clearfix">
+                <div class="row">
+                    @Html.Partial("~/Views/Shared/_PrintButton.cshtml")
+                    <h2>Local Presence</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <p>
+                            Dyrup produces high quality paint and wood care products to everyone in Europe. Dyrup has its own subsidiaries on 9 different markets throughout Europe, as well as Dyrup markets its products through a wide selection of markets in- and outside of Europe. Dyrup also has quite a few license agreements.
+                            <br />
+                            <br />
+                            The Group's activities are concentrated in Europe, where Dyrup has a presence in most markets. Dyrup enjoys a particularly strong position in wood care, where the large markets are Denmark, France and Germany, and in paints in Denmark and Portugal.
+                            <br />
+                            <br />
+                            Dyrup's principal sales channels are the DIY retail trade, the professional trade, and industrial customers. Sales ratio is dispersed as such:
+                            <br />
+                            <br />
+                            DIY accounts for approximately 52% of Dyrup’s revenue
+                            Professional trade for approximately 48% of Dyrup’s revenue
+                            Wood care and other solutions for outdoor applications account for approx. 50% of revenue
+                            <br />
+                            <br />
+                            Sales: Denmark, Germany, Austria, Portugal, Spain, France and Poland. Dyrup distributes to more than 20 countries world wide, to see the full distributor list, click below;
+                            <br />
+                            <a href="#">Dyrup list of distributors</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- .postcontent end -->
+            <!-- Sidebar
+            ============================================= -->
+            @Html.Partial("~/Views/Shared/_DyrupSidebar.cshtml")
+            <!-- .sidebar end -->
+
+        </div>
+
+    </div>
+
+</section><!-- #content end -->

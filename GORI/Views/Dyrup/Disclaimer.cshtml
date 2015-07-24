@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dyrup - The History of Dyrup";
+}
+
+
+<!-- Content
+            ============================================= -->
+
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Dyrup</h1>
+        <span></span>
+    </div>
+
+</section>
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Post Content
+            ============================================= -->
+            <div class="postcontent nobottommargin col_last  col-md-10 clearfix">
+                <div class="row">
+                    @Html.Partial("~/Views/Shared/_PrintButton.cshtml")
+                    <h2>Disclaimer</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <p>The purpose of this website is to provide information about Dyrup and our products, activities and services. The website is developed, owned and maintained by Dyrup A/S, Gladsaxevej 300, 2860 Søborg ("Dyrup").</p>
+                        <p>
+                            <strong>Material etc. on Dyrup.com<br></strong>The material and content on Dyrup.com is the property of Dyrup or is licensed to Dyrup by the owners hereof.
+                        </p>
+                        <p>Text, photographs, films, drawings, graphics, sound and data as well as products and production methods described on Dyrup.com may be subject to copyright protection or other intellectual property right protection, including patent right, utility model right or design right protection. </p>
+                        <p>The reproduction or use of the content and material on Dyrup.com in whatever form or in whatever way is prohibited, except for personal, non-commercial use, and only on condition that Dyrup’s rights are respected and not modified.&nbsp;&nbsp; </p>
+                        <p>Trademarks, including logos, slogans etc., are registered or non-registered trademarks belonging or licensed to Dyrup.</p>
+                        <p>No license or permission is given to reproduce or use any of the intellectual property rights presented on Dyrup.com for any other purposes than usual web browsing. </p>
+                        <p>
+                            <strong>Liability disclaimer</strong>
+                            <br>Information on Dyrup.com is provided without any kind of warranty. The website is intended to serve for general information purposes only. By using Dyrup.com you accept these conditions. Dyrup cannot give any warranty as to the accuracy or completeness of the information or that the information meets all your requirements.
+                        </p>
+                        <p>If Dyrup.com provides a reference or possibility to link to other websites, Dyrup accepts no liability for the material provided on such websites, and Dyrup will not supervise these websites or the material or information provided hereon. If a possibility is provided to link to Dyrup.com from other websites, Dyrup has – unless specifically stated – not approved the link or any other material contained on the website from where the link to Dyrup.com is provided.</p>
+                        <p>Dyrup disclaims any liability for direct or indirect loss or damages due to your use of Dyrup.com, or that you open or browse other websites which Dyrup.com provides links to, or use material contained on these websites. This liability disclaimer applies notwithstanding the reasons for such loss and regardless whether Dyrup could or should have anticipated such loss or damages, including the risk for such loss or damages by not removing a link from Dyrup.com or otherwise. The limitation of liability also applies to damage caused by virus on your computer.</p>
+                        <p>This disclaimer and the content on Dyrup.com are governed by Danish law without consideration of international private law. Any dispute arising out of the use of Dyrup.com or any material or information derived from this website shall, if it cannot be solved amicably, exclusively be submitted to and finally be resolved by the competent Court in Copenhagen, Denmark.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- .postcontent end -->
+            <!-- Sidebar
+            ============================================= -->
+            @Html.Partial("~/Views/Shared/_DyrupSidebar.cshtml")
+            <!-- .sidebar end -->
+
+        </div>
+
+    </div>
+
+</section><!-- #content end -->

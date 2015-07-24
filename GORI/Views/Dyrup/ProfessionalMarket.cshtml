@@ -1,0 +1,53 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dyrup - The History of Dyrup";
+}
+
+
+<!-- Content
+            ============================================= -->
+
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Dyrup</h1>
+        <span></span>
+    </div>
+
+</section>
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Post Content
+            ============================================= -->
+            <div class="postcontent nobottommargin col_last  col-md-10 clearfix">
+                <div class="row">
+                    @Html.Partial("~/Views/Shared/_PrintButton.cshtml")
+                    <h2>The Professional Market</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <p>
+                            Dyrup sells to the professional market through its own paint centres, independent wholesalers specialising in paints and builders’ merchants catering for the building trade, focusing on high quality paint products, wood stain, top coats, and interior as well as exterior decoration. The end users are professional decorators.
+                            <br />
+                            <br />
+                            The professional market accounted for 48% of Dyrup’s revenue in 2009. Dyrup sells to the PRO market through wholesalers specialising in paints, builders' merchants focusing on the building trade and own paint centres in the Danish and Portuguise market. The downturn in the building sector has had the greatest impact on the PRO market, which is directly dependent on the level of building activity. Overall, this market is estimated to have fallen back by around 12% in 2009.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- .postcontent end -->
+            <!-- Sidebar
+            ============================================= -->
+            @Html.Partial("~/Views/Shared/_DyrupSidebar.cshtml")
+            <!-- .sidebar end -->
+
+        </div>
+
+    </div>
+
+</section><!-- #content end -->

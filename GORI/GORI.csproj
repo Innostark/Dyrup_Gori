@@ -367,6 +367,16 @@
     <Content Include="images\clients\logo\7.png" />
     <Content Include="images\clients\logo\8.png" />
     <Content Include="images\clients\logo\9.png" />
+    <Content Include="images\dyrup\Aabne_gryder_1933.jpg" />
+    <Content Include="images\dyrup\dk_image_Gert_K_Thomsen.jpg" />
+    <Content Include="images\dyrup\dk_image_Klintevej_1928.jpg" />
+    <Content Include="images\dyrup\dk_image_Saa_skal_der_males.jpg" />
+    <Content Include="images\dyrup\dk_image_Sigurd_Dyrup.jpg" />
+    <Content Include="images\dyrup\Medarbejdere_Broenshoej_1931.jpg" />
+    <Content Include="images\dyrup\popart.jpg" />
+    <Content Include="images\dyrup\PPG logo-hist.jpg" />
+    <Content Include="images\dyrup\Riveri_Broenshoej_1932.jpg" />
+    <Content Include="images\dyrup\striber.jpg" />
     <Content Include="images\events\1.jpg" />
     <Content Include="images\events\10.jpg" />
     <Content Include="images\events\2.jpg" />
@@ -397,6 +407,7 @@
     <Content Include="images\footer-widget-logo%402x.png" />
     <Content Include="images\footer-widget-logo.png" />
     <Content Include="images\grid.png" />
+    <Content Include="images\icon-print.gif" />
     <Content Include="images\icons\avatar.jpg" />
     <Content Include="images\icons\close.png" />
     <Content Include="images\icons\dotted.png" />
@@ -1160,6 +1171,15 @@
     <Content Include="css\style.less" />
     <Content Include="Views\Products\GORI22.cshtml" />
     <Content Include="Views\Dyrup\Index.cshtml" />
+    <Content Include="Views\Shared\_DyrupSidebar.cshtml" />
+    <Content Include="Views\Dyrup\Disclaimer.cshtml" />
+    <Content Include="Views\Dyrup\PrivacyPolicy.cshtml" />
+    <Content Include="Views\Dyrup\OurMission.cshtml" />
+    <Content Include="Views\Dyrup\GroupProfile.cshtml" />
+    <Content Include="Views\Dyrup\DIYMarket.cshtml" />
+    <Content Include="Views\Dyrup\ProfessionalMarket.cshtml" />
+    <Content Include="Views\Dyrup\LocalPresence.cshtml" />
+    <Content Include="Views\Shared\_PrintButton.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

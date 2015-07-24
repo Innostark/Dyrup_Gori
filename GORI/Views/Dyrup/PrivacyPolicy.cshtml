@@ -1,0 +1,85 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dyrup - The History of Dyrup";
+}
+
+
+<!-- Content
+            ============================================= -->
+
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Dyrup</h1>
+        <span></span>
+    </div>
+
+</section>
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Post Content
+            ============================================= -->
+            <div class="postcontent nobottommargin col_last  col-md-10 clearfix">
+                <div class="row">
+                    @Html.Partial("~/Views/Shared/_PrintButton.cshtml")
+                    <h2>Privacy Policy</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <p>
+                            Here you will find information on the data collected when you use Dyrup.com, why we collect it, and how we use it to improve your user experience, and how Dyrup protects your personal data.
+                            <br />
+                            <br />
+                            The purpose of Dyrup.com is to provide information about Dyrup and our products, activities and services. Dyrup.com is owned and maintained by Dyrup A/S, Gladsaxevej 300, 2860 Søborg ("Dyrup").
+                        </p>
+                        <p>
+                            <b>Cookies</b><br />
+                            Cookies are small data files which are transferred from Dyrup.com to the hard drive on your computer. The cookies used on Dyrup.com are secure, do not contain virus and cannot be used for passing on, or storing, personal information. Cookies are normally classified as either "session cookies" or "permanent" cookies.
+                        </p>
+                        <p>
+                            <em>
+                                <u>"Session cookies" </u>do not remain on your computer when you leave the website or close the browser. All information collected enables Dyrup to analyse traffic patterns on Dyrup.com. Over time, this enables us to give our visitors a better experience on Dyrup.com by continuously improving the content, adjusting the website and making it easier to use.
+                            </em>
+                        </p>
+                        <p>
+                            <em>
+                                <u>"Permanent" cookies" </u>remain on your computer when you leave Dyrup.com. Dyrup uses permanent cookies to analyze whether the visitors return – it shows whether the users see Dyrup.com as helpful, useful and as generating value.
+                            </em>
+                        </p>
+                        <p>You can refuse to use cookies on your computer by choosing the relevant settings in your browser. Below you will find information links to the two most used browsers. </p>
+                        <p>
+                            <a href="http://www.microsoft.com/info/cookies.htm" target="_blank" onclick="_gaq.push(['_trackEvent', 'External links', 'Click', 'www.microsoft.com/info/cookies.htm'])">Microsoft Internet Explorer<br></a>
+                            <a href="http://www.mozilla.org/projects/security/pki/psm/help21/using_privhelp.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'External links', 'Click', 'www.mozilla.org/projects/security/pki/psm/help21/using_privhelp.html'])">Mozilla Firefox</a>
+                        </p>
+                        <p>Please be aware that&nbsp;by rejecting&nbsp;cookies you may not be able to use all functions on Dyrup.com</p>
+                        <p>
+                            <strong>Google Analytics</strong> <br>Dyrup.com uses Google Analytics, which is a web analysis tool developed by Google, Inc. ("Google"). Google Analytics uses cookies (see below) to help Dyrup.com to analyze how our visitors use Dyrup.com in order to improve the website and optimize the user experience thus ensuring that the content is relevant and accessible. For this purpose your conduct is registered when you visit Dyrup.com to read about our products and user instructions, or download a brochure or project guide. The data collected by the cookie regarding your use of the website (traffic data, including your IP address), is only used in statistical and aggregate form. The data in question is sent to and stored on Google’s servers in USA.
+                        </p>
+                        <p>Google uses the collected data to evaluate the use of Dyrup.com and to prepare reports on the activities on Dyrup.com and other services in connection with the use of the website and the Internet. Google can also pass on information to a third party if required by law or if such third party processes the information on behalf of Google. You can see further details on how Google handles collected data here:</p>
+                        <p>
+                            <a href="http://www.google.com/intl/da_ALL/privacy/privacy-policy.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'External links', 'Click', 'www.google.com/intl/da_ALL/privacy/privacy-policy.html'])">Google Privacy Policy</a>
+                        </p>
+                        <p>
+                            <strong>Collection and storage of personal data<br></strong>Dyrup seldomly collects and stores personal data. This only takes place if you choose to contact Dyrup’s Technical Service through Dyrup.com. In this case the registered data will be deleted as soon as your inquiry has been answered. Furthermore, you may be asked to give personal information if you wish to participate in an online competition made available through Dyrup.com. In this case Dyrup will only store your data for as long as it takes to complete the competition. When the competition has been completed, all personal data provided by you will be deleted.
+                        </p>
+                        <p>All data collected and registered by Dyrup is treated as confidential by Dyrup, and such data will not be assigned or otherwise made available to any third party.</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- .postcontent end -->
+            <!-- Sidebar
+            ============================================= -->
+            @Html.Partial("~/Views/Shared/_DyrupSidebar.cshtml")
+            <!-- .sidebar end -->
+
+        </div>
+
+    </div>
+
+</section><!-- #content end -->
