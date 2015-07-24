@@ -2640,7 +2640,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 	width:100%;
 	height:100%;
 	margin: 0;
-	background: url('images/pattern2.png') repeat;
+	background: url('../images/pattern2.png') repeat;
 }
 
 .swiper_wrapper .swiper-slide {
@@ -2732,7 +2732,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 	top: 0;
 	left: 0;
 	z-index: 5;
-	background: transparent url('images/grid.png') repeat;
+	background: transparent url('../images/grid.png') repeat;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -10756,7 +10756,7 @@ label.error { display: none !important; }
 /* Fancy Title - Bottom Short Border
 -----------------------------------------------------------------*/
 
-.fancy-title.title-dotted-border { background: url('images/icons/dotted.png') repeat-x center; }
+.fancy-title.title-dotted-border { background: url('../images/icons/dotted.png') repeat-x center; }
 
 
 /* Sub Heading

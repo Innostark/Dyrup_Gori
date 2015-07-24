@@ -1,5 +1,6 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "GORI 22";
 }
 <section id="page-title" style="background-color:rgb(0,38,81)">
 
@@ -8,7 +9,7 @@
         <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
-            <li class="active">GORI 22</li>
+            <li class="active">@ViewBag.Title</li>
         </ol>
     </div>
 
@@ -50,14 +51,9 @@
                         <!-- Product Single - Short Description
                             ============================================= -->
                         <p>
-                            GORI 22 is a solvent-based preservative product with
-                            insecticide, anti-termite and fungicide properties. GORI 22
-                            is used to preserve and cure by spraying or brushing all
-                            types of outdoor attacked wood. Recommended to preserve
-                            outdoor wood, and materials derived from wood (doors,
-                            windows, fences, beams, panelling, furniture, etc.).
+                            @GORI.Resources.Gori22.Description
                         </p>
-                        <p>For all types of outdoor wood: structures and panelling, beams, furniture, doors, windows, roofs.</p>
+                        <p>@GORI.Resources.Gori22.RecommendedFor</p>
                         <!-- Product Single - Meta
                             ============================================= -->
                         <!--<div class="panel panel-default product-meta">
@@ -71,7 +67,7 @@
                         <!-- Product Single - Share
                             ============================================= -->
                         <div class="si-share noborder clearfix">
-                            <span>Share:</span>
+                            <span>@GORI.Resources.GoriGeneral.Share:</span>
                             <div>
                                 <a href="#" class="social-icon si-borderless si-facebook">
                                     <i class="icon-facebook"></i>
@@ -112,10 +108,9 @@
                             <div class="fbox-icon">
                                 <i class="icon-map"></i>
                             </div>
-                            <h3>Application Areas</h3>
+                            <h3>@GORI.Resources.GoriGeneral.ApplicationAreas</h3>
                             <p class="notopmargin">
-                                For all types of outdoor wood.
-                                e.g. doors, windows, fences, beams, panelling etc.
+                                @GORI.Resources.Gori22.ApplicationAreas
                             </p>
                         </div>
 
@@ -123,12 +118,9 @@
                             <div class="fbox-icon">
                                 <i class="icon-magic"></i>
                             </div>
-                            <h3>Product advantages</h3>
+                            <h3>@GORI.Resources.GoriGeneral.ProductAdvantages</h3>
                             <p class="notopmargin">
-                                Effective treatment against all dry wood boring insects (capricorn, lyctus, woodworm).
-                                Contains insecticide and fungicide.
-                                High penetration properties.
-                                Solvent based.
+                                @GORI.Resources.Gori22.ProductAdvantages
                             </p>
                         </div>
                     </div>
@@ -138,10 +130,10 @@
                         <div class="tabs clearfix nobottommargin" id="tab-1">
 
                             <ul class="tab-nav clearfix">
-                                <li><a href="#tabs-1"><i class="icon-info-sign"></i><span class="hidden-xs"> Product İnformation</span></a></li>
-                                <li><a href="#tabs-2"><i class="icon-align-justify2"></i><span class="hidden-xs"> Substrate preparation:</span></a></li>
-                                <li><a href="#tabs-3"><i class="icon-acrobat"></i><span class="hidden-xs"> Colors</span></a></li>
-                                <li><a href="#tabs-4"><i class="icon-plus"></i><span class="hidden-xs"> More</span></a></li>
+                                <li><a href="#tabs-1"><i class="icon-info-sign"></i><span class="hidden-xs">@GORI.Resources.GoriGeneral.ProductInformation</span></a></li>
+                                <li><a href="#tabs-2"><i class="icon-align-justify2"></i><span class="hidden-xs">@GORI.Resources.GoriGeneral.SubstratePreparation</span></a></li>
+                                <li><a href="#tabs-3"><i class="icon-acrobat"></i><span class="hidden-xs">@GORI.Resources.GoriGeneral.Colors</span></a></li>
+                                <li><a href="#tabs-4"><i class="icon-plus"></i><span class="hidden-xs">@GORI.Resources.GoriGeneral.More</span></a></li>
                             </ul>
 
                             <div class="tab-container">
@@ -196,9 +188,7 @@
                                 </div>
                                 <div class="tab-content clearfix" id="tabs-2">
                                     <p>
-                                        Apply on dry, clean wood free from dust, fats, old paint, etc.<br />
-                                        Application: Ready to use (do not dilute). Apply on all sides of the wood, as well as sections
-                                        and ends.
+                                        @GORI.Resources.Gori22.SubstratePreparation
                                     </p>
                                 </div>
                                 <div class="tab-content clearfix" id="tabs-3">

@@ -1,31 +1,701 @@
 ﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Home Page";
 }
+<!--MAIN BANNER START-->
+<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <div class="swiper-container swiper-parent">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide dark" style="background-image: url('../../images/slider/swiper/11.jpg');">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-center">
+                        <h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide dark">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-center">
+                        <h2 data-caption-animate="fadeInUp">Beautifully Flexible</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
+                    </div>
+                </div>
+                <div class="video-wrap">
+                    <video poster="../../images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+                        <source src='../../images/videos/explore.mp4' type='video/mp4' />
+                        <source src='../../images/videos/explore.webm' type='video/webm' />
+                    </video>
+                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url('../../images/slider/swiper/3.jpg'); background-position: center top;">
+                <div class="container clearfix">
+                    <div class="slider-caption">
+                        <h2 data-caption-animate="fadeInUp">Great Performance</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+        <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+        <div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+</section>
+<!--END MAIN BANNER-->
+
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+
+            <div class="clear"></div>
+
+            <div class="fancy-title title-dotted-border">
+                <h3>Image Featured Boxes</h3>
+            </div>
+
+            <div class="col_one_third nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/1.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 22<span class="subtitle">Solvent Bazlı Emprenye</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 44<span class="subtitle">Solvent Bazlı Matt Ahşap Boyası</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third col_last nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 44+<span class="subtitle">Su Bazlı Matt Ahşap Boyası</span></h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="clear padding-top-20px"></div>
+            <!--SECOND ROW START-->
+            <div class="col_one_third  nobottommargin ">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 79d<span class="subtitle">Su Bazlı Ekstrem UV Koruma</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 88<span class="subtitle">Solvent Bazlı Saten Ahşap Boyası (Tiksotropik!)</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third col_last nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 91<span class="subtitle">Su Bazlı Opak Ahşap Boyası (EN 71-3)</span></h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--END SECOND ROW-->
+            <div class="clear padding-top-20px"></div>
+            <!--THIRD ROW START-->
+            <div class="col_one_third  nobottommargin ">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 36<span class="subtitle">Bahçe Mobilyası Yağı</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 38<span class="subtitle">Deck Zemin Yağı</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third col_last nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 51<span class="subtitle">Yüksek Trafik Parke Cilası</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--END thirD ROW-->
+            <div class="clear padding-top-20px"></div>
+
+            <!--Fourth ROW START-->
+            <div class="col_one_third  nobottommargin ">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 57<span class="subtitle">Çift Komponentli Yüksek Trafik Parke</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>GORI 57<span class="subtitle">Marin Cila</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col_one_third col_last nobottommargin">
+                <div class="feature-box center media-box fbox-bg">
+                    <div class="fbox-media">
+                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                    </div>
+                    <div class="fbox-desc">
+                        <h3>400+ HTML Pages Included<span class="subtitle">Commodi quidem eum libero</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--END Fourth ROW-->
+        </div>
+
+
+        <div class="clear bottommargin-lg"></div>
+
+        <div id="section-features" class="heading-block title-center page-section">
+            <h2>Features Overview</h2>
+            <span>Some of the Features that are gonna blow your mind off</span>
+        </div>
+
+        <div class="container clearfix margin-top-20">
+            <div class="">
+
+                <table class="table" id="Catalogue">
+                    <thead>
+                        <tr>
+                            <th rowspan="2"></th>
+                            <th class="PreservativeGrad" colspan="2">Preservatives</th>
+                            <th class="EmptyHeader"> </th>
+                            <th class="FinishesGrad" colspan="8">Finishes</th>
+                            <th class="EmptyHeader"> </th>
+                            <th class="OilsGrad" colspan="3">Oils</th>
+                            <th class="EmptyHeader"> </th>
+                            <th class="VarnishesGrad" colspan="2">Varnishes</th>
+
+                        </tr>
+                        <tr>
+
+                            <th class="PreservativeSubHeader">GORI 11</th>
+                            <th class="PreservativeSubHeader">GORI 22</th>
+                            <th class="EmptyHeader"> </th>
+                            <th class="FinishesSubHeader">GORI 40</th>
+                            <th class="FinishesSubHeader">GORI 44</th>
+                            <th class="FinishesSubHeader">GORI 44+</th>
+                            <th class="FinishesSubHeader">GORI 79</th>
+                            <th class="FinishesSubHeader">GORI 88</th>
+                            <th class="FinishesSubHeader">GORI 90</th>
+                            <th class="FinishesSubHeader">GORI 91</th>
+                            <th class="FinishesSubHeader">GORI 99</th>
+
+                            <th class="EmptyHeader"> </th>
+
+                            <th class="OilSubHeader">GORI 90</th>
+                            <th class="OilSubHeader">GORI 91</th>
+                            <th class="OilSubHeader">GORI 99</th>
+                            <th class="EmptyHeader"> </th>
+
+                            <th class="VarnishesSubHeader">GORI 51</th>
+                            <th class="VarnishesSubHeader">GORI 57</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="FirstColumn">External Doors</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <!--Windows-->
+                        <tr>
+                            <td class="FirstColumn">Windows</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i> </td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+
+
+                        <!--Facades-->
+                        <tr>
+                            <td class="FirstColumn">Facades</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+
+                        <!--Pergolas-->
+                        <tr>
+                            <td class="FirstColumn">Pergolas</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+
+                        <!--Garden pavillions-->
+                        <tr>
+                            <td class="FirstColumn">Garden pavillions</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <!--Balconies-->
+                        <tr>
+                            <td class="FirstColumn">Balconies</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+
+                        <!--Fences-->
+                        <tr>
+                            <td class="FirstColumn">Fences</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+
+                        <!--Wooden Decks-->
+                        <tr>
+                            <td class="FirstColumn">Wooden Decks</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <!--Garden furniture-->
+                        <tr>
+                            <td class="FirstColumn">Garden furniture</td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i></td>
+                            <td class="Emptytd"></td>
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <!--Interior-->
+                        <tr>
+                            <td class="FirstColumn">Interior</td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                        </tr>
+
+                        <!--Parquet-->
+                        <tr>
+                            <td class="FirstColumn">Parquet</td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+                            <td></td>
+                        </tr>
+
+
+                        <!--Boats-->
+                        <tr class="LastTr">
+                            <td class="FirstColumn">Boats <span>(Above<br /> the water Line)</span></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Emptytd"></td>
+
+                            <td></td>
+                            <td><i class="icon-ok"></i><i class="icon-ok"></i></td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</section>
+<footer id="footer" class="dark" style="background-color: #222;">
+
+
+    <!-- Footer Widgets
+        ============================================= -->
+
+
+
+    <div class="promo promo-dark promo-uppercase bottommargin" style="margin-bottom: 0px !important">
+        <div>
+            <div style="text-align: center">
+                <h4>Teknik Destek ve Ürün Bilgisi İçin <span> +90.212.355.89.61 </span> or veya <span>bilgi@gori-turkiye.com</span></h4>
+            </div>
+            <div style="text-align: center">
+                <span>  Ahşap yapılarınızın uzun ömürlü olması ve ürün bilgisi için lütfen bize danışınız</span>
+            </div>
+            <a href="#" class="button button-xlarge btn-primary  button-rounded">Start Now</a>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+
+</footer>
+<script>
+    jQuery(document).ready(function ($) {
+        var swiperSlider = new Swiper('.swiper-parent', {
+            paginationClickable: false,
+            slidesPerView: 1,
+            grabCursor: true,
+            onSwiperCreated: function (swiper) {
+                $('[data-caption-animate]').each(function () {
+                    var $toAnimateElement = $(this);
+                    var toAnimateDelay = $(this).attr('data-caption-delay');
+                    var toAnimateDelayTime = 0;
+                    if (toAnimateDelay) { toAnimateDelayTime = Number(toAnimateDelay) + 750; } else { toAnimateDelayTime = 750; }
+                    if (!$toAnimateElement.hasClass('animated')) {
+                        $toAnimateElement.addClass('not-animated');
+                        var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+                        setTimeout(function () {
+                            $toAnimateElement.removeClass('not-animated').addClass(elementAnimation + ' animated');
+                        }, toAnimateDelayTime);
+                    }
+                });
+            },
+            onSlideChangeStart: function (swiper) {
+                $('#slide-number-current').html(swiper.activeIndex + 1);
+                $('[data-caption-animate]').each(function () {
+                    var $toAnimateElement = $(this);
+                    var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+                    $toAnimateElement.removeClass('animated').removeClass(elementAnimation).addClass('not-animated');
+                });
+            },
+            onSlideChangeEnd: function (swiper) {
+                $('#slider .swiper-slide').each(function () {
+                    if ($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
+                });
+                $('#slider .swiper-slide:not(".swiper-slide-active")').each(function () {
+                    if ($(this).find('video').length > 0) {
+                        if ($(this).find('video').get(0).currentTime != 0) $(this).find('video').get(0).currentTime = 0;
+                    }
+                });
+                if ($('#slider .swiper-slide.swiper-slide-active').find('video').length > 0) { $('#slider .swiper-slide.swiper-slide-active').find('video').get(0).play(); }
+
+                $('#slider .swiper-slide.swiper-slide-active [data-caption-animate]').each(function () {
+                    var $toAnimateElement = $(this);
+                    var toAnimateDelay = $(this).attr('data-caption-delay');
+                    var toAnimateDelayTime = 0;
+                    if (toAnimateDelay) { toAnimateDelayTime = Number(toAnimateDelay) + 300; } else { toAnimateDelayTime = 300; }
+                    if (!$toAnimateElement.hasClass('animated')) {
+                        $toAnimateElement.addClass('not-animated');
+                        var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+                        setTimeout(function () {
+                            $toAnimateElement.removeClass('not-animated').addClass(elementAnimation + ' animated');
+                        }, toAnimateDelayTime);
+                    }
+                });
+            }
+        });
+
+        $('#slider-arrow-left').on('click', function (e) {
+            e.preventDefault();
+            swiperSlider.swipePrev();
+        });
+
+        $('#slider-arrow-right').on('click', function (e) {
+            e.preventDefault();
+            swiperSlider.swipeNext();
+        });
+
+        $('#slide-number-current').html(swiperSlider.activeIndex + 1);
+        $('#slide-number-total').html(swiperSlider.slides.length);
+    });
+</script>

@@ -23,7 +23,15 @@ namespace GORI.Controllers
             }
             return View();
         }
-
+        // GET: Products/Gori/5
+        public ActionResult GORI(int id)
+        {
+            if (id == 22)
+            {
+                return View("GORI22");
+            }
+            return View();
+        }
         // GET: Products/Create
         public ActionResult Create()
         {
