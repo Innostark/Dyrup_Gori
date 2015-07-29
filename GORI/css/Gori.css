@@ -200,7 +200,7 @@ label {
   background-color: -webkit-linear-gradient(left top, #D3D7E6 , #032859) !important; /* For Safari 5.1 to 6.0 */
   background-color: -o-linear-gradient(bottom right, #D3D7E6 , #032859) !important; /* For Opera 11.1 to 12.0 */
   background-color: -moz-linear-gradient(bottom right, #D3D7E6 , #032859) !important; /* For Firefox 3.6 to 15 */
-  background-color: linear-gradient(to bottom right, #D3D7E6  , #032859) !important; /* Standard syntax */
+  background: linear-gradient(to bottom right, #D3D7E6  , #032859) !important; /* Standard syntax */
   color: white
 }
 .PreservativeGrad {

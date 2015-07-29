@@ -1,0 +1,85 @@
+﻿.targetedDiv {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.rowWithBottomMargin {
+    margin-bottom: 5px;
+}
+
+.Gori88 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , #0065A5); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , #0065A5); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , #0065A5); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , #0065A5); /* Standard syntax */
+}
+
+.Gori88Header {
+    color: darkblue;
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.GoriHeader {
+    color: white !important;
+}
+.Gori44 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(0,155,62)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(0,155,62)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(0,155,62)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(0,155,62)); /* Standard syntax */
+}
+.Gori44Plus {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(128,189,135)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(128,189,135)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(128,189,135)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(128,189,135)); /* Standard syntax */
+}
+.Gori79 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(0,68,17)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(0,68,17)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(0,68,17)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(0,68,17)); /* Standard syntax */
+}
+.Gori11 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(0,38,81)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(0,38,81)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(0,38,81)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(0,38,81)); /* Standard syntax */
+}
+.Gori91 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(221,5,43)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(221,5,43)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(221,5,43)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(221,5,43)); /* Standard syntax */
+}
+.Gori36 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(0,97,161)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(0,97,161)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(0,97,161)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(0,97,161)); /* Standard syntax */
+}
+.Gori37 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(233,69,137)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(233,69,137)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(233,69,137)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(233,69,137)); /* Standard syntax */
+}
+.Gori38 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(85,76,155)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(85,76,155)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(85,76,155)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(85,76,155)); /* Standard syntax */
+}
+.Gori51 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(242,140,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(242,140,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(242,140,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(242,140,0)); /* Standard syntax */
+}
+.Gori57 {
+  background: -webkit-linear-gradient(left top, #FDFDFF , rgb(0,148,70)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FDFDFF , rgb(0,148,70)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FDFDFF , rgb(0,148,70)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FDFDFF  , rgb(0,148,70)); /* Standard syntax */
+}

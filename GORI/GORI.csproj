@@ -170,6 +170,11 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Gori44.Designer.cs">
+      <DependentUpon>Gori44.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Resources\Gori22.tr.Designer.cs">
       <DependentUpon>Gori22.tr.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -195,6 +200,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\StyleIST.css" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\calendar.css" />
@@ -255,7 +261,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="GORI22.html" />
     <Content Include="GORI44.html" />
     <Content Include="GORI44Plus.html" />
     <Content Include="GORI79.html" />
@@ -786,6 +791,7 @@
     <Content Include="images\products\canGori44Plus.jpg" />
     <Content Include="images\products\canGori79.jpg" />
     <Content Include="images\products\canGori88.jpg" />
+    <Content Include="images\products\canGori91.jpg" />
     <Content Include="images\products\CleanTools.jpg" />
     <Content Include="images\products\curative.jpg" />
     <Content Include="images\products\DryingTime48.jpg" />
@@ -793,10 +799,13 @@
     <Content Include="images\products\ExcellentPenetration.jpg" />
     <Content Include="images\products\fungicide.jpg" />
     <Content Include="images\products\insecticide.jpg" />
+    <Content Include="images\products\outdoor.jpg" />
     <Content Include="images\products\preventive.jpg" />
     <Content Include="images\products\Recoatable1.jpg" />
     <Content Include="images\products\Recoatable12-24.jpg" />
     <Content Include="images\products\Sizes.jpg" />
+    <Content Include="images\products\waterbased.jpg" />
+    <Content Include="images\products\WeatherProof.jpg" />
     <Content Include="images\restaurant\11.jpg" />
     <Content Include="images\restaurant\13.jpg" />
     <Content Include="images\restaurant\18.jpg" />
@@ -1115,7 +1124,6 @@
     <Content Include="css\fonts\Simple-Line-Icons.eot" />
     <Content Include="css\fonts\Simple-Line-Icons.ttf" />
     <Content Include="css\fonts\Simple-Line-Icons.woff" />
-    <Content Include="images\products\Thumbs.db" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1130,7 +1138,9 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="css\style-import.css" />
     <Content Include="css\style.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -1169,7 +1179,6 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="css\style.less" />
-    <Content Include="Views\Products\GORI22.cshtml" />
     <Content Include="Views\Dyrup\Index.cshtml" />
     <Content Include="Views\Shared\_DyrupSidebar.cshtml" />
     <Content Include="Views\Dyrup\Disclaimer.cshtml" />
@@ -1180,6 +1189,12 @@
     <Content Include="Views\Dyrup\ProfessionalMarket.cshtml" />
     <Content Include="Views\Dyrup\LocalPresence.cshtml" />
     <Content Include="Views\Shared\_PrintButton.cshtml" />
+    <Content Include="Views\Products\GORI88.cshtml" />
+    <Content Include="Views\Products\GORI22.cshtml" />
+    <Content Include="Views\Products\GORI44.cshtml" />
+    <Content Include="Views\Products\GORI44Plus.cshtml" />
+    <Content Include="Views\Products\GORI79.cshtml" />
+    <Content Include="Views\Products\GORI91.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1192,6 +1207,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Gori44.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Gori44.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Gori22.tr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Gori22.tr.Designer.cs</LastGenOutput>
