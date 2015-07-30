@@ -786,9 +786,15 @@
     <Content Include="images\preloader.gif" />
     <Content Include="images\products\ApplyBy.jpg" />
     <Content Include="images\products\ApplyByRoller.jpg" />
+    <Content Include="images\products\BrushOrRoller.jpg" />
     <Content Include="images\products\canGori22.jpg" />
+    <Content Include="images\products\canGori36.jpg" />
+    <Content Include="images\products\canGori37.jpg" />
+    <Content Include="images\products\canGori38.jpg" />
     <Content Include="images\products\canGori44.jpg" />
     <Content Include="images\products\canGori44Plus.jpg" />
+    <Content Include="images\products\canGori51.jpg" />
+    <Content Include="images\products\canGori57.jpg" />
     <Content Include="images\products\canGori79.jpg" />
     <Content Include="images\products\canGori88.jpg" />
     <Content Include="images\products\canGori91.jpg" />
@@ -796,14 +802,21 @@
     <Content Include="images\products\curative.jpg" />
     <Content Include="images\products\DryingTime48.jpg" />
     <Content Include="images\products\DryingTime72.jpg" />
+    <Content Include="images\products\DryingTimes25.jpg" />
     <Content Include="images\products\ExcellentPenetration.jpg" />
     <Content Include="images\products\fungicide.jpg" />
+    <Content Include="images\products\hardwearing.jpg" />
     <Content Include="images\products\insecticide.jpg" />
     <Content Include="images\products\outdoor.jpg" />
     <Content Include="images\products\preventive.jpg" />
+    <Content Include="images\products\Recoatable.jpg" />
     <Content Include="images\products\Recoatable1.jpg" />
     <Content Include="images\products\Recoatable12-24.jpg" />
+    <Content Include="images\products\repelent.jpg" />
     <Content Include="images\products\Sizes.jpg" />
+    <Content Include="images\products\structure.jpg" />
+    <Content Include="images\products\twoHours.jpg" />
+    <Content Include="images\products\UVblocker.jpg" />
     <Content Include="images\products\waterbased.jpg" />
     <Content Include="images\products\WeatherProof.jpg" />
     <Content Include="images\restaurant\11.jpg" />
@@ -1195,6 +1208,11 @@
     <Content Include="Views\Products\GORI44Plus.cshtml" />
     <Content Include="Views\Products\GORI79.cshtml" />
     <Content Include="Views\Products\GORI91.cshtml" />
+    <Content Include="Views\Products\GORI36.cshtml" />
+    <Content Include="Views\Products\GORI37.cshtml" />
+    <Content Include="Views\Products\GORI38.cshtml" />
+    <Content Include="Views\Products\GORI51.cshtml" />
+    <Content Include="Views\Products\GORI57.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

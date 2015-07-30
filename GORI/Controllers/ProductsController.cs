@@ -9,11 +9,31 @@ namespace GORI.Controllers
         {
             return View();
         }
+        public ActionResult GORI36()
+        {
+            return View();
+        }
+        public ActionResult GORI37()
+        {
+            return View();
+        }
+        public ActionResult GORI38()
+        {
+            return View();
+        }
         public ActionResult GORI44()
         {
             return View();
         }
         public ActionResult GORI44Plus()
+        {
+            return View();
+        }
+        public ActionResult GORI51()
+        {
+            return View();
+        }
+        public ActionResult GORI57()
         {
             return View();
         }
