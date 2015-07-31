@@ -1,4 +1,4 @@
-﻿<div class="sidebar nobottommargin clearfix" style="position: fixed">
+﻿<div id="sidebar" class="sidebar nobottommargin clearfix" style="position: fixed">
     <div class="sidebar-widgets-wrap">
         <div class="widget widget_links clearfix">
             <h4>Pages</h4>
@@ -24,3 +24,18 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function() {
+        setSideBarPlace();
+    });
+    function setSideBarPlace() {
+        if ($(document).width() > 975) {
+            $("#sidebar").css({ position: 'fixed' });
+        } else {
+            $("#sidebar").css({ position: 'inherit' });
+        }
+    }
+    $(window).resize(function () {
+        setSideBarPlace();
+    });
+</script>

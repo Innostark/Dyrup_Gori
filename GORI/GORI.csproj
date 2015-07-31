@@ -263,10 +263,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="GORI44.html" />
-    <Content Include="GORI44Plus.html" />
-    <Content Include="GORI79.html" />
-    <Content Include="GORI88.html" />
     <Content Include="images\about\1.jpg" />
     <Content Include="images\about\2.jpg" />
     <Content Include="images\about\3.jpg" />
