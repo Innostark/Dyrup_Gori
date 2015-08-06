@@ -201,6 +201,22 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\responsive-tables.css" />
+    <Content Include="images\gorilogo.png" />
+    <Content Include="images\products\GORI22.jpg" />
+    <Content Include="images\products\GORI36.jpg" />
+    <Content Include="images\products\GORI38.jpg" />
+    <Content Include="images\products\GORI44Plus.jpg" />
+    <Content Include="images\products\GORI44.jpg" />
+    <Content Include="images\products\GORI51.jpg" />
+    <Content Include="images\products\GORI57.jpg" />
+    <Content Include="images\products\GORI79.jpg" />
+    <Content Include="images\products\GORI88.jpg" />
+    <Content Include="images\products\GORI91.jpg" />
+    <Content Include="images\slider\swiper\HomePage1.jpg" />
+    <Content Include="images\slider\swiper\HomePage2.png" />
+    <Content Include="images\slider\swiper\HomePage2.tif" />
+    <Content Include="images\slider\swiper\HomePage3.png" />
+    <Content Include="images\slider\swiper\HomePage3.tif" />
     <Content Include="Scripts\responsive-tables.js" />
     <Content Include="Content\StyleIST.css" />
     <Content Include="css\animate.css" />
@@ -1211,6 +1227,7 @@
     <Content Include="Views\Products\GORI38.cshtml" />
     <Content Include="Views\Products\GORI51.cshtml" />
     <Content Include="Views\Products\GORI57.cshtml" />
+    <Content Include="Views\Products\GORI22 - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

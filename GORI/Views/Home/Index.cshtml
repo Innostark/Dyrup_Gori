@@ -1,42 +1,43 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "GORI";
 }
 <!--MAIN BANNER START-->
 <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
 
     <div class="swiper-container swiper-parent">
         <div class="swiper-wrapper">
-            <div class="swiper-slide dark" style="background-image: url('../../images/slider/swiper/11.jpg');">
+            <div class="swiper-slide dark" style="background-image: url('../../images/slider/swiper/HomePage1.jpg');">
                 <div class="container clearfix">
                     <div class="slider-caption slider-caption-center">
-                        <h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
-                        <p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+                        <h2 data-caption-animate="fadeInUp">GORI Artık Türkiye’de!</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="200">İskandinav 1# Ahşap Boyası GORI artık Türkiye’de</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url('../../images/slider/swiper/HomePage2.png'); background-position: center top;">
+                <div class="container clearfix">
+                    <div class="slider-caption">
+                        <h2 data-caption-animate="fadeInUp">GORI 88 Tiksotropik Formül</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="200">Yüksek kıvamı sayesinde uygulama esnasında akmaz, mükemmel renk dağılımı sağlar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide dark" style="background-image: url('../../images/slider/swiper/HomePage3.png');">
+                <div class="container clearfix">
+                    <div class="slider-caption slider-caption-center">
+                        <h2 data-caption-animate="fadeInUp">GORI 38 Deck Yağı</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="200">Aşınmaya karşı dayanımlı GORI renkli ve şeffaf deck yağları artık 10.0L’lik ambalajlarda!</p>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide dark">
-                <div class="container clearfix">
-                    <div class="slider-caption slider-caption-center">
-                        <h2 data-caption-animate="fadeInUp">Beautifully Flexible</h2>
-                        <p data-caption-animate="fadeInUp" data-caption-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
-                    </div>
-                </div>
-                <div class="video-wrap">
-                    <video poster="../../images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
-                        <source src='../../images/videos/explore.mp4' type='video/mp4' />
-                        <source src='../../images/videos/explore.webm' type='video/webm' />
-                    </video>
-                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-                </div>
-            </div>
-            <div class="swiper-slide" style="background-image: url('../../images/slider/swiper/3.jpg'); background-position: center top;">
-                <div class="container clearfix">
-                    <div class="slider-caption">
-                        <h2 data-caption-animate="fadeInUp">Great Performance</h2>
-                        <p data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
-                    </div>
-                </div>
+                <iframe type="text/html"
+                        width="640"
+                        height="385"
+                        src="https://www.youtube.com/embed/Ny43EA7pwxw?autoplay=1"
+                        frameborder="0"></iframe>
+                <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
             </div>
         </div>
         <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
@@ -57,13 +58,13 @@
             <div class="clear"></div>
 
             <div class="fancy-title title-dotted-border">
-                <h3>Image Featured Boxes</h3>
+                <h3>GORI Ürün Yelpazesi</h3>
             </div>
 
             <div class="col_one_third nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/1.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI22"><img class="image_fade GoriImageSize" src="~/images/products/GORI22.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 22<span class="subtitle">Solvent Bazlı Emprenye</span></h3>
@@ -74,7 +75,7 @@
             <div class="col_one_third nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI44"><img class="image_fade GoriImageSize" src="~/images/products/GORI44.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 44<span class="subtitle">Solvent Bazlı Matt Ahşap Boyası</span></h3>
@@ -85,7 +86,7 @@
             <div class="col_one_third col_last nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI44Plus"><img class="image_fade GoriImageSize" src="~/images/products/GORI44Plus.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 44+<span class="subtitle">Su Bazlı Matt Ahşap Boyası</span></h3>
@@ -100,7 +101,7 @@
             <div class="col_one_third  nobottommargin ">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI79"><img class="image_fade GoriImageSize" src="~/images/products/GORI79.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 79d<span class="subtitle">Su Bazlı Ekstrem UV Koruma</span></h3>
@@ -111,7 +112,7 @@
             <div class="col_one_third nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI88"><img class="image_fade GoriImageSize" src="~/images/products/GORI88.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 88<span class="subtitle">Solvent Bazlı Saten Ahşap Boyası (Tiksotropik!)</span></h3>
@@ -122,7 +123,7 @@
             <div class="col_one_third col_last nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI91"><img class="image_fade GoriImageSize" src="~/images/products/GORI91.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 91<span class="subtitle">Su Bazlı Opak Ahşap Boyası (EN 71-3)</span></h3>
@@ -137,7 +138,7 @@
             <div class="col_one_third  nobottommargin ">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI36"><img class="image_fade GoriImageSize" src="~/images/products/GORI36.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 36<span class="subtitle">Bahçe Mobilyası Yağı</span></h3>
@@ -148,7 +149,7 @@
             <div class="col_one_third nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI38"><img class="image_fade GoriImageSize" src="~/images/products/GORI38.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 38<span class="subtitle">Deck Zemin Yağı</span></h3>
@@ -159,7 +160,7 @@
             <div class="col_one_third col_last nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI51"><img class="image_fade GoriImageSize" src="~/images/products/GORI51.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 51<span class="subtitle">Yüksek Trafik Parke Cilası</span></h3>
@@ -174,7 +175,7 @@
             <div class="col_one_third  nobottommargin ">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI57"><img class="image_fade GoriImageSize" src="~/images/products/GORI57.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 57<span class="subtitle">Çift Komponentli Yüksek Trafik Parke</span></h3>
@@ -185,25 +186,13 @@
             <div class="col_one_third nobottommargin">
                 <div class="feature-box center media-box fbox-bg">
                     <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/2.jpg" alt="Featured Box Image"></a>
+                        <a href="~/Products/GORI57"><img class="image_fade GoriImageSize" src="~/images/products/GORI57.jpg" alt="Featured Box Image"></a>
                     </div>
                     <div class="fbox-desc">
                         <h3>GORI 57<span class="subtitle">Marin Cila</span></h3>
                     </div>
                 </div>
             </div>
-
-            <div class="col_one_third col_last nobottommargin">
-                <div class="feature-box center media-box fbox-bg">
-                    <div class="fbox-media">
-                        <a href="#"><img class="image_fade" src="../../images/portfolio/3/3.jpg" alt="Featured Box Image"></a>
-                    </div>
-                    <div class="fbox-desc">
-                        <h3>400+ HTML Pages Included<span class="subtitle">Commodi quidem eum libero</span></h3>
-                    </div>
-                </div>
-            </div>
-
             <!--END Fourth ROW-->
         </div>
 
@@ -1001,12 +990,12 @@
     <div class="promo promo-dark promo-uppercase bottommargin" style="margin-bottom: 0px !important">
         <div>
             <div style="text-align: center">
-                <h4>Teknik Destek ve Ürün Bilgisi İçin <span> +90.212.355.89.61 </span> or veya <span>bilgi@gori-turkiye.com</span></h4>
+                <h4>Teknik Destek ve Ürün Bilgisi İçin <span> +90.212.355.89.61 </span> veya <span>bilgi@gori-turkiye.com</span></h4>
             </div>
             <div style="text-align: center">
                 <span>  Ahşap yapılarınızın uzun ömürlü olması ve ürün bilgisi için lütfen bize danışınız</span>
             </div>
-            <a href="#" class="button button-xlarge btn-primary  button-rounded">Start Now</a>
+            <a href="#" class="button button-xlarge btn-primary  button-rounded">İLETİŞİM</a>
         </div>
     </div>
 
