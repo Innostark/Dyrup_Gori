@@ -212,11 +212,6 @@
     <Content Include="images\products\GORI79.jpg" />
     <Content Include="images\products\GORI88.jpg" />
     <Content Include="images\products\GORI91.jpg" />
-    <Content Include="images\slider\swiper\HomePage1.jpg" />
-    <Content Include="images\slider\swiper\HomePage2.png" />
-    <Content Include="images\slider\swiper\HomePage2.tif" />
-    <Content Include="images\slider\swiper\HomePage3.png" />
-    <Content Include="images\slider\swiper\HomePage3.tif" />
     <Content Include="Scripts\responsive-tables.js" />
     <Content Include="Content\StyleIST.css" />
     <Content Include="css\animate.css" />
