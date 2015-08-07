@@ -32,8 +32,8 @@
                                 <div class="flexslider">
                                     <div class="slider-wrap" data-lightbox="gallery">
                                         <div class="slide">
-                                            <a href="/images/products/canGori38.jpg" title="GORI 38" data-lightbox="gallery-item">
-                                                <img src="/images/products/canGori38.jpg" alt="GORI 38">
+                                            <a href="/images/products/canGori38.png" title="GORI 38" data-lightbox="gallery-item">
+                                                <img src="/images/products/canGori38.png" alt="GORI 38">
                                             </a>
                                         </div>
                                     </div>
@@ -173,9 +173,110 @@
                                     </p>
                                 </div>
                                 <div class="tab-content clearfix" id="tabs-3">
-                                    <p>
+                                    @*<p>
                                         7804 Teak • 7805 Oak • 7808 Walnut • 7810 Palisander • 9900 Clear
-                                    </p>
+                                    </p>*@
+
+                                    <h4>Related Projects:</h4>
+
+                                    <div id="related-portfolio" class="owl-carousel portfolio-carousel">
+
+                                        <div class="oc-item">
+                                            <div class="iportfolio">
+                                                <div class="portfolio-image">
+                                                    <a href="portfolio-single.html">
+                                                        <img src="~/images/ProductColor/7804Teak.png" alt="Open Imagination">
+                                                    </a>
+                                                    <div class="portfolio-overlay">
+                                                        <a href="~/images/ProductColor/7804Teak.png" class="center-icon" data-lightbox="image"><i class="icon-line-ellipsis"></i></a>
+                                                        @*<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>*@
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-desc">
+                                                    <center> <h3>7804 TEAK </h3></center>
+                                                    
+                                                    @*<span><a href="#">Media</a>, <a href="#">Icons</a></span>*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="oc-item">
+                                            <div class="iportfolio">
+                                                <div class="portfolio-image">
+                                                    <a href="portfolio-single.html">
+                                                        <img src="~/images/ProductColor/7805Oak.png" alt="Locked Steel Gate">
+                                                    </a>
+                                                    <div class="portfolio-overlay">
+                                                        <a href="~/images/ProductColor/7805Oak.png" class="center-icon" data-lightbox="image"><i class="icon-line-ellipsis"></i></a>
+                                                        @*<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>*@
+                                                    </div>
+                                                </div>
+                                                <div   class="portfolio-desc">
+                                                    <center> <h3>7805 OAK </h3></center>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="oc-item">
+                                            <div class="iportfolio">
+                                                <div class="portfolio-image">
+                                                    <a href="portfolio-single.html">
+                                                        <img src="~/images/ProductColor/7810Palisander.png" alt="Open Imagination">
+                                                    </a>
+                                                    <div class="portfolio-overlay">
+                                                        <a href="~/images/ProductColor/7810Palisander.png" class="center-icon" data-lightbox="image"><i class="icon-line-ellipsis"></i></a>
+                                                        @*<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>*@
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-desc">
+                                                    <center> <h3>7810 Palisander </h3></center>
+
+                                                    @*<span><a href="#">Media</a>, <a href="#">Icons</a></span>*@
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="oc-item">
+                                            <div class="iportfolio">
+                                                <div class="portfolio-image">
+                                                    <a href="portfolio-single.html">
+                                                        <img src="~/images/ProductColor/9900Clear.png" alt="Locked Steel Gate">
+                                                    </a>
+                                                    <div class="portfolio-overlay">
+                                                        <a href="~/images/ProductColor/9900Clear.png" class="center-icon" data-lightbox="image"><i class="icon-line-ellipsis"></i></a>
+                                                        @*<a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>*@
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-desc">
+                                                    <center> <h3>9900 Clear </h3></center>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div><!-- .portfolio-carousel end -->
+
+                                    <script type="text/javascript">
+
+                                        jQuery(document).ready(function ($) {
+
+                                            var relatedPortfolio = $("#related-portfolio");
+
+                                            relatedPortfolio.owlCarousel({
+                                                margin: 30,
+                                                nav: false,
+                                                autoplay: true,
+                                                autoplayHoverPause: true,
+                                                responsive: {
+                                                    0: { items: 1 },
+                                                    480: { items: 2 },
+                                                    768: { items: 3 },
+                                                    992: { items: 4 }
+                                                }
+                                            });
+
+                                        });
+
+                                    </script>
                                 </div>
 
                             </div>

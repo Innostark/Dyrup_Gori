@@ -76,32 +76,32 @@
                                 <a href="~/Dyrup/Index"><div><i class="icon-home2"></i>Hakkımızda</div></a>
                                 <ul>
                                     <li>
-                                        <a href="~/Dyrup/Index#Dyrup" onclick="redirectToDyrup(this);"><div><i class="icon-stack"></i>The History of Dyrup</div></a>
+                                        <a href="#" onclick="RedirectDyrup('Dyrup'); return false;" target="_self"><div><i class="icon-stack"></i>The History of Dyrup</div></a>
 
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#GroupProfile"><div><i class="icon-gift"></i>Group Profile</div></a>
+                                        <a href="#GroupProfile" onclick="RedirectDyrup('GroupProfile'); return false;"><div><i class="icon-gift"></i>Group Profile</div></a>
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#OurMission"><div><i class="icon-gift"></i>Our mission</div></a>
+                                        <a href="#OurMission" onclick="RedirectDyrup('OurMission'); return false;"><div><i class="icon-gift"></i>Our mission</div></a>
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#DIYMarket"><div><i class="icon-umbrella"></i>The DIY market</div></a>
+                                        <a href="#DIYMarket" onclick="RedirectDyrup('DIYMarket'); return false;"><div><i class="icon-umbrella"></i>The DIY market</div></a>
 
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#ProfessionalMarket"><div><i class="icon-line-layout"></i>The Professional Market</div></a>
+                                        <a href="#ProfessionalMarket" onclick="RedirectDyrup('ProfessionalMarket'); return false;"><div><i class="icon-line-layout"></i>The Professional Market</div></a>
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#LocalPresence"><div><i class="icon-align-justify2"></i>Local Presence</div></a>
+                                        <a href="#LocalPresence" onclick="RedirectDyrup('LocalPresence'); return false;"><div><i class="icon-align-justify2"></i>Local Presence</div></a>
 
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#PrivacyPolicy"><div><i class="icon-ok-sign"></i>Privacy Policy</div></a>
+                                        <a href="#PrivacyPolicy" onclick="RedirectDyrup('PrivacyPolicy'); return false;"><div><i class="icon-ok-sign"></i>Privacy Policy</div></a>
 
                                     </li>
                                     <li>
-                                        <a href="~/Dyrup/Index#Disclaimer"><div><i class="icon-envelope-alt"></i>Disclaimer</div></a>
+                                        <a href="#Disclaimer" onclick="RedirectDyrup('Disclaimer'); return false;"><div><i class="icon-envelope-alt"></i>Disclaimer</div></a>
 
                                     </li>
                                 </ul>
@@ -292,6 +292,20 @@
                 });
             }
         });
+
+        function RedirectDyrup(tag) {
+
+            var hostName = window.location.hostname;
+            var port = ""; 
+            if (hostName == "localhost")
+                port += ":37830";
+            hostName = "http://" + hostName + port + "/";
+            hostName += "Dyrup/Index#" + tag;
+            
+            window.location.href = hostName;
+            return false;
+
+        }
     </script>
 
 </body>

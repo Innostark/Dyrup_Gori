@@ -202,6 +202,19 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\responsive-tables.css" />
     <Content Include="images\gorilogo.png" />
+    <Content Include="images\ProductColor\7804Teak.png" />
+    <Content Include="images\ProductColor\7805Oak.png" />
+    <Content Include="images\ProductColor\7810Palisander.png" />
+    <Content Include="images\ProductColor\9900Clear.png" />
+    <Content Include="images\products\canGori22.png" />
+    <Content Include="images\products\canGori36.png" />
+    <Content Include="images\products\canGori38.png" />
+    <Content Include="images\products\canGori44.png" />
+    <Content Include="images\products\canGori44Plus.png" />
+    <Content Include="images\products\canGori51.png" />
+    <Content Include="images\products\canGori57.png" />
+    <Content Include="images\products\canGori79.png" />
+    <Content Include="images\products\canGori88.png" />
     <Content Include="images\products\GORI22.jpg" />
     <Content Include="images\products\GORI36.jpg" />
     <Content Include="images\products\GORI38.jpg" />
@@ -212,6 +225,9 @@
     <Content Include="images\products\GORI79.jpg" />
     <Content Include="images\products\GORI88.jpg" />
     <Content Include="images\products\GORI91.jpg" />
+    <Content Include="images\slider\swiper\HomePage1.jpg" />
+    <Content Include="images\slider\swiper\HomePage2.jpg" />
+    <Content Include="images\slider\swiper\HomePage3.jpg" />
     <Content Include="Scripts\responsive-tables.js" />
     <Content Include="Content\StyleIST.css" />
     <Content Include="css\animate.css" />
@@ -1146,6 +1162,7 @@
     <Content Include="css\fonts\Simple-Line-Icons.eot" />
     <Content Include="css\fonts\Simple-Line-Icons.ttf" />
     <Content Include="css\fonts\Simple-Line-Icons.woff" />
+    <None Include="Properties\PublishProfiles\GORI.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
