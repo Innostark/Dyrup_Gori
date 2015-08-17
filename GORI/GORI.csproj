@@ -1240,6 +1240,16 @@
     <Content Include="Views\Products\GORI51.cshtml" />
     <Content Include="Views\Products\GORI57.cshtml" />
     <Content Include="Views\Products\GORI22 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI36 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI37 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI38 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI44 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI44Plus - Copy.cshtml" />
+    <Content Include="Views\Products\GORI51 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI57 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI79 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI88 - Copy.cshtml" />
+    <Content Include="Views\Products\GORI91 - Copy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
